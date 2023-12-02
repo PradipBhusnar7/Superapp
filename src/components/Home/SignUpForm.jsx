@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./SignUp.css"; 
+import { useNavigate } from "react-router-dom";
 import Event from "../../assets/Images/Events.png";
 
 const SignUpForm = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     username: "",
     password: "",
@@ -86,6 +88,7 @@ const SignUpForm = () => {
 
     if (validateForm()) {
       localStorage.setItem("formData", JSON.stringify(formData));
+      navigate("/another");
     } else {
       console.log("Form is invalid, please correct the errors.");
     }
