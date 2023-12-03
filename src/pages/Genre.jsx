@@ -1,9 +1,10 @@
-import React from 'react'
-
-function Genre() {
-  return (
-    <div>Genres</div>
-  )
+import Category from '../components/Genre/Category'
+const Genre = ()=>{
+    return(
+        <>
+            <Category/>
+        </>
+    )
 }
 
 export default Genre

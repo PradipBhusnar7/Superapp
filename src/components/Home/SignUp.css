@@ -3,10 +3,10 @@
   padding: 0px;
 }
 
-/* Image and Tetx */
+
 img{
-  position: fixed;
-  height: 740px;
+  position: absolute;
+  height: 739px;
   width: 780px;
 }
 .eventText{
@@ -21,14 +21,14 @@ img{
   z-index: 99;
 }
 
-/* Super app and create account */
+
 .container{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 780px;
   border: 2px solid black;
   background-color: black;
-  width: 755px;
+  width: 753px;
   height: 736px;
 }
 .super {
@@ -47,7 +47,7 @@ img{
   color: #FFFFFF;
 }
 
-/* Form */
+
 .signForm {
   position: absolute;
   top: 150px;
@@ -105,9 +105,9 @@ input {
   border: 1px solid red;
 }
 
-/* Sign up Button */
+
 button {
-  position: absolute;
+  /* position: absolute; */
   top: 370px;
   width: 350px;
   background-color: #4caf50;

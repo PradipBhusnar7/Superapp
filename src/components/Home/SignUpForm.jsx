@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SignUp.css"; 
 import { useNavigate } from "react-router-dom";
-import Event from "../../assets/Images/Events.png";
+import Event from "../../assets/Events.png";
 
 const SignUpForm = () => {
   const navigate = useNavigate();

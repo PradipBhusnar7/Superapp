@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+.body {
+  display: flex;
+  width: 100vw;
+  height: 736px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #000000;
+}
+.rightBox {
+  display: grid;
+  width: 660px;
+  height: 80vh;
+  padding-top: 40px;
+  gap: 2vw;
+  grid-template-columns: repeat(3, 1fr);
+}
+.leftBox {
+  width: 700px;
+  height: 670px;
+  padding-top: 80px;
+  text-align: center;
+  padding-left: 70px;
+  box-sizing: border-box;
+}
+.superApp {
+  margin-right: 320px;
+  font-size: 70px;
+  color: #72db73;
+  font-family: "Single Day", cursive;
+}
+.group {
+  margin-left: 25px;
+  width: 550px;
+  font-size: 65px;
+  color: white;
+  text-align: left;
+  margin-top: 4vh;
+}
+.signUp {
+  position: absolute;
+  top: 650px;
+  width: 180px;
+  height: 40px;
+  left: 1180px;
+  line-height: 10px;
+  color: white;
+  background: green;
+  border-radius: 30px;
+  border: none;
+  padding: 12px;
+}
+.error {
+  margin-right: 275px;
+  color: red;
+  font-size: 22px;
+}
