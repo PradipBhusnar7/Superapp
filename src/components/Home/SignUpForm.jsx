@@ -6,16 +6,17 @@ import Event from "../../assets/Events.png";
 const SignUpForm = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
+    name: "",
     username: "",
-    password: "",
     email: "",
     mobile: "",
     checkbox: false, 
   });
 
   const [validationMessages, setValidationMessages] = useState({
+    name: "",
     username: "",
-    password: "",
+    
     email: "",
     mobile: "",
     checkbox: "", 
@@ -42,11 +43,11 @@ const SignUpForm = () => {
       newValidationMessages.username = "";
     }
 
-    if (!formData.password.trim()) {
-      newValidationMessages.password = "Field is required";
+    if (!formData.name.trim()) {
+      newValidationMessages.name = "Field is required";
       isValid = false;
     } else {
-      newValidationMessages.password = "";
+      newValidationMessages.name = "";
     }
 
     if (!formData.email.trim()) {
@@ -87,7 +88,7 @@ const SignUpForm = () => {
     e.preventDefault();
 
     if (validateForm()) {
-      localStorage.setItem("formData", JSON.stringify(formData));
+      localStorage.setItem("form", JSON.stringify(formData));
       navigate("/another");
     } else {
       console.log("Form is invalid, please correct the errors.");
@@ -113,7 +114,7 @@ const SignUpForm = () => {
               <input
                 type="text"
                 name="username"
-                placeholder="Username"
+                placeholder="Name"
                 value={formData.username}
                 onChange={handleInputChange}
               />
@@ -121,17 +122,17 @@ const SignUpForm = () => {
             </div>
             <div
               className={`form-group ${
-                validationMessages.password && "has-error"
+                validationMessages.name && "has-error"
               }`}
             >
               <input
-                type="password"
-                name="password"
-                placeholder="Password"
-                value={formData.password}
+                type="text"
+                name="name"
+                placeholder="Username"
+                value={formData.name}
                 onChange={handleInputChange}
               />
-              <div className="error-message">{validationMessages.password}</div>
+              <div className="error-message">{validationMessages.name}</div>
             </div>
             <div
               className={`form-group ${

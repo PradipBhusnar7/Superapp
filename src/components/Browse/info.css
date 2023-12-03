@@ -1,0 +1,33 @@
+.starts{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: #5746EA;
+    border-radius: 12px;
+    padding: 6px;
+    gap: 12px;
+}
+.userinfo{
+    position: relative;
+    display: flex;
+    height: 300px;
+    left: 70px;
+    top: 30px;
+    flex-direction: column;
+    gap: 12px;
+}
+.card-btn{
+    background-color: #9F94FF;
+    border-radius: 12px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 6px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+.btn-span{
+    color: black;
+    margin-left: 4px;
+}

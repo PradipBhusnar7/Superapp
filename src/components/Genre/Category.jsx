@@ -79,7 +79,7 @@ const GenreComponent = () => {
       return;
     } else {
       setLengthError(false);
-      window.localStorage.setItem("content", JSON.stringify([...categories]));
+      window.localStorage.setItem("type", JSON.stringify([...categories]));
       navigate("/next");
     }
   };
