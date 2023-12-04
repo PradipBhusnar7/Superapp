@@ -1,5 +1,5 @@
 import Info from "../components/Browse/Info";
-
+import Weather from "../components/Browse/Weather"
 
 const Browse = () => {
   return (
@@ -14,6 +14,7 @@ const Browse = () => {
       }}
     >
       <div><Info /></div>
+      <div><Weather/></div>
     </div>
   );
 };

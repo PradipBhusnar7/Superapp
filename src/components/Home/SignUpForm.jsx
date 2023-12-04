@@ -191,11 +191,11 @@ const SignUpForm = () => {
 
           <p className="termsandcon">
             By clicking on Sign up, you agree to Superapp{" "}
-            <span>Terms and Conditions of Use</span>
+            <span className="sp">Terms and Conditions of Use</span>
           </p>
           <p className="privacypolicy">
             To learn more about how Superapp collects, uses, shares and protects
-            your personal data please read Superapp <span>Privacy Policy</span>
+            your personal data please read Superapp <span className="sp">Privacy Policy</span>
           </p>
         </div>
       </div>
