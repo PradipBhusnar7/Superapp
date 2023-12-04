@@ -1,0 +1,34 @@
+.newsContianer {
+  position: absolute;
+  top: 22px;
+  left: 42rem;
+  width: 350px;
+  height: 400px;
+  color: white;
+  background-color: #f1c75b;
+  border-radius: 12px;
+  padding: 5px;
+}
+.notesHeading {
+  position: relative;
+  top: 20px;
+  left: 30px;
+  color: black;
+  font-size: 33px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.notesText {
+  border: 2px solid white;
+  position: absolute;
+  top: 70px;
+  left: 32px;
+  width: 300px;
+  height: 55vh;
+  margin: auto;
+  border: none;
+  background: transparent;
+  outline: 0;
+  font-size: 21px;
+  font-weight: 400;
+}

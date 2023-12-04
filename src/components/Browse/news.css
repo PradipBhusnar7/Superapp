@@ -1,19 +1,21 @@
 .newContainer {
+  /* border: 2px solid red; */
   position: absolute;
   top: 20px;
-  left: 60rem;
-  height: 667px;
+  left: 66rem;
+  height: 577px;
   width: 30vw;
   border-radius: 12px;
   padding: 6px;
 }
 
 .newdesc {
+  /* border: 2px solid blue; */
   position: relative;
-  width: 446px;
-  top: 448px;
-  left: 2.5px;
-  height: 210px;
+  width: 430px;
+  top: 425px;
+  right: 1px;
+  height: 220px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 19px;
@@ -25,10 +27,11 @@
   padding: 6px;
 }
 .time {
+  /* border: 2px solid white; */
   position: absolute;
-  margin-top: 4.1rem;
-  width: 462px;
-  height: 162px;
+  top: 17rem;
+  width: 443px;
+  height: 158px;
   padding: 25px;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.74);

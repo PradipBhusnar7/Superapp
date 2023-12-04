@@ -40,7 +40,7 @@ const News = ()=>{
     })
     return (
         <div className="newContainer">
-            <img src={news.urlToImage} style={{height:"60vh", borderRadius:"12px",width:"30vw"}}/>
+            <img src={news.urlToImage} style={{height:"422px", borderRadius:"12px",width:"443px"}}/>
             <div className="newdesc">
                 {news.description}
             </div>

@@ -12,9 +12,9 @@ const Info = ()=>{
         </div>
 
         <div className='userinfo'>
-            <p style={{color:'white',fontSize:"36px"}}>{info.name}</p>
-            <p style={{color:'white',fontSize:"36px"}}>{info.email}</p>
-            <p style={{color:'white',fontSize:"46px"}}>{info.username}</p>
+            <p style={{color:'white',fontSize:"36px"}}>{info.username}</p>
+            <p style={{color:'white',fontSize:"30px"}}>{info.email}</p>
+            <p style={{color:'white',fontSize:"46px"}}>{info.name}</p>
             <Chips categories={genre} color={"#9F94FF"}/>
         </div>
         </div>
