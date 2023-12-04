@@ -1,0 +1,35 @@
+.newContainer {
+  position: absolute;
+  top: 20px;
+  left: 60rem;
+  height: 667px;
+  width: 30vw;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.newdesc {
+  position: relative;
+  width: 446px;
+  top: 448px;
+  left: 2.5px;
+  height: 210px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 19px;
+  border-bottom-left-radius: 19px;
+  background: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 6px;
+}
+.time {
+  position: absolute;
+  margin-top: 4.1rem;
+  width: 462px;
+  height: 162px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.74);
+}
