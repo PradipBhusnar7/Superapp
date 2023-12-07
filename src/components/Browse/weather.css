@@ -1,122 +1,146 @@
-.lineOne,.lineTwo{
+.lineOne{
   position: absolute;
-  top: 130px;
+  top: 73px;
+  left: 13rem;
 }
-.lineTwo{
+.lineTwo {
   position: absolute;
-  right: 15rem;
+  top: 73px;
+  left: 23.7rem;
 }
 
 /* weather */
 .weathercontainer {
   position: relative;
-  top: 20px;
-  width: 810px;
-  height: 240px;
+  top: 32px;
+  left: 15px;
+  width: 600px;
+  height: 150px;
   background-color: #101744;
   border-radius: 12px;
 }
 .dateTime {
   display: flex;
-  height: 80px;
+  height: 45px;
   background-color: #ff4ade;
-  border-radius: 11px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   color: white;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
 }
-.files{
+.files {
   height: 150px;
   display: flex;
   color: white;
   align-items: center;
   justify-content: space-evenly;
 }
-.weather,
-.weathertemp {
+.weather {
   position: relative;
   width: 150px;
   height: 50px;
-  font-size: 25px;
-  margin-top: 15px;
-}
-.weather {
-  right: 10px;
+  font-size: 17px;
+  bottom: 21px;
+  left: 37px;
+  font-size: 22px;
   font-family: "Roboto", sans-serif;
 }
 
 /* pressure */
-.pressure {
-  margin-bottom: 12px;
-  font-size: 24px;
-  margin-top: 10px;
+.pressureBox {
+  position: relative;
+  bottom: 75px;
   width: 100px;
   height: 50px;
-  font-size: 3rem;
 }
-.pres{
-  line-height: 20px;
+.pressure {
+  margin-top: 32px;
+  left: 40px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 35px;
 }
-.prename{
-  position: relative;
-  top: 25px;
-  right: 87px;
+.pres {
+  margin-bottom: 25px;
+  left: 40px;
+  width: 100px;
+  height: 40px;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.prename {
+  position: absolute;
+  top: 92px;
+  right: 41px;
 }
 .preimg {
-  position: absolute; 
-  left: 21.7rem;
-  top: 11.5rem;
-}
-.prescontainer{
-  margin-left: 70px;
+  top: 84px;
+  right: 108px;
 }
 
 /* Wind */
-.wind {
+.windBox {
   position: relative;
-  bottom: 10px;
+  bottom: 75px;
+  width: 100px;
+  height: 50px;
+}
+.wind {
+  margin-top: 45px;
   left: 40px;
   width: 100px;
   height: 40px;
   line-height: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
 }
 .windName {
-  position: relative;
-  bottom: 13px;
+  position: absolute;
+  top: 23px;
+  right: 64px;
 }
 .windimg {
-  width: 40px;
-  height: 38px;
+  top: 15px;
+  right: 105px;
+  width: 28px;
+  height: 28px;
 }
 
 /* Humidity */
+.humidityBox {
+  position: absolute;
+  bottom: 47px;
+  width: 100px;
+  height: 50px;
+}
+.humimg {
+  top: 55px;
+  right: 110px;
+  width: 20px;
+  height: 28px;
+}
 .humidity {
-  position: relative;
-  top: 10px;
+  margin-top: 36px;
   left: 40px;
   width: 100px;
   height: 40px;
   line-height: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
 }
 .humName {
-  position: relative;
-  bottom: 15px;
-}
-.humimg {
-  margin-top: 20px;
-  margin-right: 5px;
-  width: 28px;
-  height: 38px;
+  position: absolute;
+  top: 57px;
+  right: 40px;
 }

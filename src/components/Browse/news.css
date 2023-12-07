@@ -1,21 +1,19 @@
 .newContainer {
-  /* border: 2px solid red; */
   position: absolute;
-  top: 20px;
-  left: 66rem;
+  top: 30px;
+  left: 67.9rem;
   height: 577px;
-  width: 30vw;
+  width: 25vw;
   border-radius: 12px;
   padding: 6px;
 }
 
 .newdesc {
-  /* border: 2px solid blue; */
   position: relative;
-  width: 430px;
+  width: 341px;
   top: 425px;
   right: 1px;
-  height: 220px;
+  height: 195px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 19px;
@@ -24,13 +22,12 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 24px;
-  padding: 6px;
+  padding: 20px;
 }
 .time {
-  /* border: 2px solid white; */
   position: absolute;
   top: 17rem;
-  width: 443px;
+  width: 380px;
   height: 158px;
   padding: 25px;
   box-sizing: border-box;

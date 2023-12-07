@@ -32,7 +32,7 @@ const Weather = () => {
     var strTime = hours + ":" + minutes + " " + ampm;
     setTime(strTime);
   });
-  
+
   useEffect(() => {
     const today = new Date();
     const yyyy = today.getFullYear();
@@ -59,31 +59,33 @@ const Weather = () => {
               <img
                 src={weather.current.condition.icon}
                 style={{
-                  width: "100px",
-                  height: "100px",
+                  width: "70px",
+                  height: "70px",
                   position: "relative",
-                  top: "10px",
+                  bottom: "20px",
+                  left: "40px",
                 }}
               />
               <p className="weather">{weather.current.condition.text}</p>
             </div>
+
             {/* line1 */}
             <div>
               <img
                 src={Line}
                 alt=""
-                style={{ width: "3px", height: "60px" }}
+                style={{ width: "3px", height: "50px" }}
                 className="lineOne"
               />
             </div>
+
             {/* pressure */}
-           <div>
-           <div className="prescontainer">
+            <div className="pressureBox">
               <div>
                 <img
                   src={Pressure}
                   alt=""
-                  style={{ width: "20px", height: "37px" }}
+                  style={{ width: "15px", height: "22px" }}
                   className="preimg"
                 />
               </div>
@@ -95,34 +97,39 @@ const Weather = () => {
                 <span className="prename">Pressure</span>
               </p>
             </div>
-           </div>
+
             {/* Line2 */}
             <div>
               <img
                 src={Line}
                 alt=""
-                style={{ width: "3px", height: "60px" }}
+                style={{ width: "3px", height: "50px" }}
                 className="lineTwo"
               />
             </div>
+
             {/* wind */}
             <div>
-              <div>
-                <img src={Wind} alt="" className="windimg" />
+              <div className="windBox">
+                <div>
+                  <img src={Wind} alt="" className="windimg" />
+                </div>
+                <p className="wind">
+                  {weather.current.wind_kph}km/h{" "}
+                  <span className="windName"> Wind</span>
+                </p>
               </div>
-              <p className="wind">
-                {weather.current.wind_kph}km/h{" "}
-                <span className="windName"> wind</span>
-              </p>
 
               {/* Humidity */}
-              <div>
-                <img src={Humidity} alt="" className="humimg" />
+              <div className="humidityBox">
+                <div>
+                  <img src={Humidity} alt="" className="humimg" />
+                </div>
+                <p className="humidity">
+                  {weather.current.humidity}%{" "}
+                  <span className="humName">Humidity</span>
+                </p>
               </div>
-              <p className="humidity">
-                {weather.current.humidity}%{" "}
-                <span className="humName">Humidity</span>
-              </p>
             </div>
           </div>
         ) : (
