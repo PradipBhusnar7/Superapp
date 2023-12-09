@@ -200,7 +200,7 @@ const Timer = () => {
           onClick={() => setPlaying((prev) => !prev)}
           style={{
             position: "relative",
-            top: "22px",
+            top: "19px",
             marginLeft: "53px",
             width: "418px",
             background: "#FF6A6A",
@@ -209,6 +209,10 @@ const Timer = () => {
             color: "white",
             textAlign: "center",
             cursor: "pointer",
+            fontSize:"20px",
+            fontFamily:"Roboto",
+            fontWeight:"200",
+            letterSpacing:"1px"
           }}
         >
           {playing ? <p>Pause</p> : <p>Start</p>}

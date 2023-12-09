@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Browse = () => {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/movies");
+    navigate("/movie");
   };
   return (
     <div
@@ -19,10 +19,9 @@ const Browse = () => {
         paddingLeft: "3vw",
         paddingTop: "3vh",
         boxSizing: "border-box",
-        // border: "2px solid white",
       }}
     >
-      <div >
+      <div>
         <Info />
         <Weather />
       </div>
@@ -55,7 +54,7 @@ const Browse = () => {
         }}
         onClick={handleClick}
       >
-        Next Page
+        Browse
       </button>
     </div>
   );

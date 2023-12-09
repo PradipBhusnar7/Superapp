@@ -3,9 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Genre from './pages/Genre';
 import Browse from './pages/Browse';
-// import Movies from "./pages/Movies";
+import Movie from './pages/Movie';
 
-// import Browse from './components/Browse/browse'
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
     <Route path="/" element={<Home/>} />
     <Route path="/another" element={<Genre />} />
     <Route path="/next" element={<Browse/>} />
-    {/* <Route path="/movies" element={<Movies />} /> */}
+    <Route path="/movie" element={<Movie/>} />
   </Routes>
   );
 }
