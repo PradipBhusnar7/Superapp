@@ -98,7 +98,7 @@ const SignUpForm = () => {
   return (
     <div>
       <div className="eventText">Discover new things on Superapp</div>
-      <img src={Event} alt="" />
+      <img src={Event} alt="" className="eventImg"/>
 
       <div className="container">
         <div className="super">Super app</div>

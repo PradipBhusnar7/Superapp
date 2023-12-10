@@ -17,47 +17,47 @@ const type = [
   {
     id: "Action",
     color: "#FF5209",
-    image: <img style={{ width: "166px", height: "121px" }} src={action} />,
+    image: <img style={{width: "160px", height: "100px",padding:"18px 0px 0px 5px" }} src={action} />,
   },
   {
     id: "Drama",
     color: "#D7A4FF",
-    image: <img style={{ width: "166px", height: "121px" }} src={drama} />,
+    image: <img style={{width: "160px", height: "100px",padding:"18px 0px 0px 5px" }} src={drama} />,
   },
   {
     id: "Romance",
     color: "#11B800",
-    image: <img style={{ width: "166px", height: "121px" }} src={romance} />,
+    image: <img style={{width: "160px", height: "100px",padding:"18px 0px 0px 5px" }} src={romance} />,
   },
   {
     id: "Thriller",
     color: "#84C2FF",
-    image: <img style={{ width: "166px", height: "121px" }} src={thriller} />,
+    image: <img style={{width: "160px", height: "100px",padding:"18px 0px 0px 5px" }} src={thriller} />,
   },
   {
     id: "Western",
     color: "#902500",
-    image: <img style={{ width: "166px", height: "121px" }} src={western} />,
+    image: <img style={{width: "160px", height: "100px" ,padding:"18px 0px 0px 5px"}} src={western} />,
   },
   {
     id: "Horror",
     color: "#7358FF",
-    image: <img style={{ width: "166px", height: "121px" }} src={horror} />,
+    image: <img style={{width: "160px", height: "100px" ,padding:"18px 0px 0px 5px"}} src={horror} />,
   },
   {
     id: "Fantasy",
     color: "#FF4ADE",
-    image: <img style={{ width: "166px", height: "121px" }} src={fantasy} />,
+    image: <img style={{width: "160px", height: "100px" ,padding:"18px 0px 0px 5px"}} src={fantasy} />,
   },
   {
     id: "Music",
     color: "#E61E32",
-    image: <img style={{ width: "166px", height: "121px" }} src={music} />,
+    image: <img style={{width: "160px", height: "100px",padding:"18px 0px 0px 5px" }} src={music} />,
   },
   {
     id: "Fiction",
     color: "#6CD061",
-    image: <img style={{ width: "166px", height: "121px" }} src={fiction} />,
+    image: <img style={{width: "160px", height: "100px",padding:"18px 0px 0px 5px" }} src={fiction} />,
   },
 ];
 
@@ -83,6 +83,7 @@ const GenreComponent = () => {
       navigate("/next");
     }
   };
+
   return (
     <div className={styles.body}>
       <div className={styles.leftBox}>
@@ -149,10 +150,14 @@ const Section = ({ info, seq, setCategories, categories }) => {
         color: "white",
         padding: "14px",
         borderRadius: "15px",
+        fontFamily: "'DM Sans",
+        fontWeight:"bold",
+        letterSpacing:"1.3px",
         border: `${selected ? "4px solid green" : "4px solid none"}`,
       }}
+ 
     >
-      <div style={{ marginBottom: "4px", fontSize: "17px" }}>{info.id}</div>
+      <div style={{ marginBottom: "4px", fontSize: "22px"}}>{info.id}</div>
       {info.image}
     </div>
   );

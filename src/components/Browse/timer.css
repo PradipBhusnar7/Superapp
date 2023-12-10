@@ -1,16 +1,17 @@
-.timerContainer{
-    position: relative;
-    left: 60px;
-    width: 61.8rem;
-    height: 29vh;
-    background: #1E2343;
-    position: absolute;
-    border-radius: 12px;
-    margin-top: 50px;
-    display: flex;;
-    box-sizing: border-box;
-    padding: 12px;
-    align-items: center;
-    justify-content: space-evenly;
-    
+.timerContainer {
+  position: relative;
+  left: 60px;
+  width: 61.8rem;
+  height: 29vh;
+  background: #1e2343;
+  position: absolute;
+  border-radius: 12px;
+  margin-top: 205px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 12px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
 }
+

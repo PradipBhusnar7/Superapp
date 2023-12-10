@@ -100,7 +100,7 @@ const Timer = () => {
         >
           <div style={{ textAlign: "center", padding: "6px" }}>
             <p
-              style={{ position: "relative", bottom: "25px", color: "#949494" }}
+              style={{ position: "relative", bottom: "25px", color: "#949494", }}
             >
               Hours
             </p>
@@ -188,7 +188,7 @@ const Timer = () => {
                 width: "13px",
                 height: "13px",
                 position: "absolute",
-                left: "51rem",
+                left: "51.1rem",
                 bottom: "63px",
               }}
               onClick={decreaseSecond}
@@ -201,7 +201,7 @@ const Timer = () => {
           style={{
             position: "relative",
             top: "19px",
-            marginLeft: "53px",
+            marginLeft: "55px",
             width: "418px",
             background: "#FF6A6A",
             borderRadius: "12px",

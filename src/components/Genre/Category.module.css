@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+
 .body {
   display: flex;
   width: 100vw;
-  height: 736px;
+  height: 739px;
   padding-right: 20px;
   box-sizing: border-box;
   overflow: hidden;
@@ -40,7 +40,7 @@
 }
 .signUp {
   position: absolute;
-  top: 650px;
+  top: 688px;
   width: 180px;
   height: 40px;
   left: 1180px;
@@ -50,6 +50,8 @@
   border-radius: 30px;
   border: none;
   padding: 12px;
+  font-family: sans-serif;
+  font-weight: 500;
 }
 .error {
   margin-right: 275px;

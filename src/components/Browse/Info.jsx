@@ -17,7 +17,6 @@ const Info = () => {
             top: "10px",
             left: "10px",
             borderRadius:"50px",
-            boxShadow: "0px 2px 2px 0px ",
           }}
         />
       </div>

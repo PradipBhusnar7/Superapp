@@ -6,13 +6,22 @@ const News = ()=>{
      const [date, setDate] = useState("")
     const [time, setTime] = useState("")
     console.log(news)
-    useEffect(()=>{
-        const fetchNews = async()=>{
-           await fetch("https://newsapi.org/v2/everything?q=apple&from=2023-12-02&to=2023-12-02&sortBy=popularity&apiKey=b135ca8377234772b7bb35b329783eda")
-                .then(async(data)=>await data.json()).then((res)=>setNews(res.articles[0]))
-        }
+    useEffect(() => {
+        const fetchNews = async () => {
+            try {
+                const response = await fetch(
+                    "https://api.currentsapi.services/v1/latest-news?language=en&apiKey=CRuQox3hcaPDKJKgCRRY14aVWRa1zROlHEJy-4PV05jBhZ6h"
+                );
+                const data = await response.json();
+                setNews(data.news && data.news.length > 0 ? data.news[0] : null);
+            } catch (error) {
+                console.error("Error fetching news data:", error);
+            } finally {
+                setLoading(false);
+            }
+        };
         fetchNews();
-    },[])
+    }, []);
     
      useEffect(()=>{
         const date = new Date
@@ -40,7 +49,7 @@ const News = ()=>{
     })
     return (
         <div className="newContainer">
-            <img src={news.urlToImage} style={{height:"424px", borderRadius:"12px 12px 0px 0px",width:"380px"}}/>
+            <img src={news.image} style={{height:"424px", borderRadius:"12px 12px 0px 0px",width:"380px"}}/>
             <div className="newdesc">
                 {news.description}
             </div>

@@ -11,6 +11,7 @@
   gap: 12px;
 }
 .userinfo {
+  /* border: 2px solid white; */
   position: relative;
   display: flex;
   width: 370px;
