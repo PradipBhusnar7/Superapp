@@ -25,16 +25,13 @@ const Browse = () => {
         <Info />
         <Weather />
       </div>
-
       <div>
         <Notes />
       </div>
-
       <div></div>
       <div>
         <News />
       </div>
-
       <div>
         <Timer />
       </div>

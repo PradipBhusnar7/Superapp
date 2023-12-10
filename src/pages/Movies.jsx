@@ -55,7 +55,7 @@ const Movies = () => {
         ))}
 
         <div >
-          <button style={{width:"150px",height:"30px",marginBottom:"10px",marginLeft:"82.2rem",lineHeight:"12px",background:"#148A08",fontSize:"18px"}}  onClick={handleClick}>Home Page</button>
+          <button style={{width:"150px",height:"30px",marginBottom:"10px",marginLeft:"82.2rem",lineHeight:"12px",background:"#148A08",fontSize:"18px"}}  onClick={handleClick} >Home Page</button>
         </div>
       </div>
     </>
