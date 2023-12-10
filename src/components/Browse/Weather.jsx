@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import line from "../../assets/line.png";
+import line from "../../assets/line.png"
 import pressure from "../../assets/pressure.png";
 import humidity from "../../assets/humidity.png";
 import wind from "../../assets/wind.png";
@@ -110,11 +110,8 @@ const Weather = () => {
                 </p>
               )}
             </div>
-
-          
             <img src={line} style={{ height: "45px" }} />
 
-          
             <div>
               {weather.main && weather.main.temp && (
                 <p
