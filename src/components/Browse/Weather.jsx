@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import line from "../../assets/line.png"
+import line from "../../assets/Line.png"
 import pressure from "../../assets/pressure.png";
 import humidity from "../../assets/humidity.png";
 import wind from "../../assets/wind.png";
